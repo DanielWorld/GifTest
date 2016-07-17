@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         PlayGifView pGif = (PlayGifView) findViewById(R.id.viewGif);
+        pGif.setCircle(true);
 //        pGif.setImageResource(R.drawable.giphy);
         pGif.setImageResource(R.drawable.catparty);
     }
